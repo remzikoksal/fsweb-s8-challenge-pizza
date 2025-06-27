@@ -1,0 +1,397 @@
+
+.header {
+  width: 100vw;               
+ background-color:#CE2829;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+
+
+.logo {
+  height: 60px;
+  margin-bottom: -40px;
+  width: 350px;
+}
+
+.sekmeler {
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: -240px;
+  margin-bottom: -50px;
+}
+.pizza-image-container{
+  background-color: #FAF7F2;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding: 20px;
+  
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow:hidden;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-bottom: 100px;
+ 
+}
+.pizza-image{
+  margin-top: 0px;
+  width: 400px;
+  align-items: center;
+  margin-bottom: -100px;
+}
+.form {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.pizzaAdi {
+ text-align: left;
+  font-size: 20px;
+}
+.price {
+  margin-top : -10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+}
+.description {
+  text-align: left;
+  margin-top: -30px;
+ color: rgb(155, 153, 153);
+ font-size: 16px;
+}
+.boyut{
+  text-align: left;
+  font-weight: bolder;
+  width: 300px;
+}
+.lablerller{
+  width: 300px;
+}
+.ekMalzemeler{
+  width: 300px;
+}
+.hamursec{
+ font-weight: bolder;
+ text-align:right;
+  margin-top: -112px;
+  margin-right: 60px;
+  margin-bottom: -20px;
+
+  
+
+  
+}
+
+
+.label-hamur{
+  text-align: right;
+  margin-right: 17px;
+}
+
+fieldset {
+ 
+  text-align: left;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ekMalzeme{
+
+  text-align: left;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: -5px;
+  margin-top: -20px;
+  
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.siparis {
+
+text-align: left;
+font-weight: bold;
+font-size: 18px;
+ 
+}
+
+textarea,
+input[type="text"],
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #FAF7F2;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+  
+}
+.select2{
+  width: 200px;
+  background-color: #FAF7F2 ;
+  border: 1px solid #FAF7F2;
+  border-radius: 10px;  
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 30px;
+
+
+}
+.toplamYazı{
+  font-weight: bold;
+  font-size: 18px;
+}
+.toplam{
+  color: #CE2829;
+  margin-left: 20px;
+}
+.adet-fiyat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.adet button {
+  background: #fdc913;
+  border: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.adet span {
+  margin: 0 8px;
+}
+
+.fiyat-box {
+  text-align: right;
+      
+  border-radius: 6px;         
+  padding: 12px;               
+  width: 50%;                 
+  box-sizing: border-box;      
+  text-align: left;        
+   background-color: #FAF7F2;   
+}
+.fiyat-box p{
+  
+  margin-left: 20px;
+ 
+}
+.siparis-notu{
+  background-color: #FAF7F2;;
+}
+
+
+
+.submit-btn {
+  
+  background: #fdc913;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 40px;
+  width: 100%;
+  
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+.boyut-sec {
+
+  font-weight: bold;
+}
+.boyut-grup{
+  display: flex;
+  gap: 3px;
+  margin-top: 8px;
+  width: 250px;
+  
+}
+
+.boyut-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #FAF7F2;
+  transition: all 0.2s ease;
+}
+
+.boyut-button.selected {
+  background-color: #FDC913;
+  
+  border-color: #cec2c2;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.malzeme-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.malzeme-label input[type="checkbox"] {
+  display: none;
+}
+
+
+.custom-checkbox {
+  width: 25px;
+  height: 25px;
+  
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  transition: all 0.2s ease;
+   background-color: #FAF7F2;
+}
+
+
+.custom-checkbox::after {
+  content: "✔";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #000000;
+  display: none;
+ 
+}
+
+
+.malzeme-label input[type="checkbox"]:checked + .custom-checkbox::after {
+  display: block;
+  
+}
+
+.malzeme-label input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: #fdc913;
+  border-color: #CE2829;
+}
+
+
+.malzeme-etiket {
+  font-size: 14px;
+  color: #000000;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .pizza-image{
+  width: 70%;
+  margin-left: 0px;
+  margin-right: 20px;
+  
+  
+}
+.pizza-image-container{
+  padding: 10px;
+  width: 100%;
+  
+  padding-bottom: 100px;
+}
+
+.sekmeler {
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+.pizzaAdi{
+  margin-top: -90px;
+}
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-contact li {
+    justify-content: center;
+  }
+
+  .footer-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+  .fiyat-box{
+    width: 60%;
+    text-align: left;
+  }
+  .boyut-grup{
+   
+    display: inline;
+    gap: 5px;
+    padding: 1%;
+    width: 100%;
+    justify-content: center;
+   
+}
+.hamursec{
+    margin-top: -213px;
+    margin-bottom: -10px;
+    
+}
+.select2{
+  width: 60%;
+  padding: -30%;
+ 
+}
+.grid{
+  margin-left:-20px;
+}
+
+
+}
