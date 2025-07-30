@@ -11,17 +11,17 @@ const Home = () => {
   };
 
   return (
-  // Home.jsx
-  <>
-<div className="hero-banner">
-    <div className="hero-content">
-        <img src='./images/iteration-1-images/logo.svg' alt='logo' className='logo' />
-  <p className='yazi'>KOD ACIKTIRIR</p>
-  <p className='yazi2'>PİZZA, DOYURUR</p>
-  <button className='aciktim' onClick={handleClick}>ACIKTIM</button></div>
-</div>
-<header>
-<div className="category-header">
+    <>
+      <div className="hero-banner">
+        <div className="hero-content">
+          <img src='./images/iteration-1-images/logo.svg' alt='logo' className='logo' />
+          <p className='yazi'>KOD ACIKTIRIR</p>
+          <p className='yazi2'>PİZZA, DOYURUR</p>
+          <button className='aciktim' onClick={handleClick}>ACIKTIM</button>
+        </div>
+      </div>
+      <header>
+        <div className="category-header">
   <div className="category-item">
     <img src="./images/iteration-1-images/iconlar/1.svg" alt="Kore" />
     <span>YENİ! Kore</span>
